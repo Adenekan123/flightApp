@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="assets/css/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/cutom.css">
+
+</head>
+
+<body>
+    <div class="bg-primary">
+        <nav class="navbar navbar-expand-lg text-onPrimary bg-primary p-0 fixed-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">Sales</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">OPS</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">Crew</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">MX</a>
+                        </li>
+
+                    </ul>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-3">
+                            <a class="nav-link">
+                                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.414 9.80358L0 11.2176L4.949 13.3386L7.071 18.2886L8.485 16.8746L7.778 13.3386L11.091 10.0256L14.701 17.7296L16.04 16.3906L14.85 6.26758L17.678 3.43858C17.869 3.25408 18.0214 3.03339 18.1262 2.78939C18.231 2.54538 18.2862 2.28294 18.2885 2.01738C18.2908 1.75182 18.2402 1.48846 18.1396 1.24267C18.0391 0.996876 17.8906 0.773572 17.7028 0.585787C17.515 0.398001 17.2917 0.249495 17.0459 0.148933C16.8001 0.0483716 16.5368 -0.00223212 16.2712 7.55131e-05C16.0056 0.00238315 15.7432 0.057556 15.4992 0.162374C15.2552 0.267192 15.0345 0.419556 14.85 0.610577L11.947 3.51358L1.824 2.32258L0.559 3.58858L8.203 7.25858L4.95 10.5116L1.414 9.80358Z"
+                                        fill="#E5E5E5" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav-item px-3 dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.285 7.119C20.2604 7.03616 20.2149 6.96103 20.1529 6.9008C20.0909 6.84057 20.0145 6.79726 19.931 6.775C19.8474 6.75225 19.7593 6.75192 19.6756 6.77404C19.5919 6.79616 19.5154 6.83995 19.454 6.901L16.838 9.458L14.924 9.075L14.543 7.168L17.188 4.583C17.2499 4.52263 17.2951 4.44722 17.3192 4.36415C17.3433 4.28108 17.3454 4.19318 17.3254 4.10905C17.3053 4.02492 17.2638 3.94742 17.2048 3.88414C17.1459 3.82086 17.0715 3.77395 16.989 3.748C16.5082 3.58979 16.0061 3.50615 15.5 3.5C12.743 3.5 10.5 5.743 10.5 8.5C10.5 8.823 10.538 9.15 10.618 9.51C10.056 9.973 9.522 10.372 8.917 10.824C8.052 11.47 7.072 12.201 5.735 13.33C5.35062 13.6612 5.04155 14.0708 4.82854 14.5313C4.61553 14.9919 4.50351 15.4926 4.5 16C4.5 17.93 6.07 19.5 8 19.5C8.50802 19.4984 9.00955 19.3857 9.4694 19.1697C9.92925 18.9538 10.3363 18.6399 10.662 18.25C11.5472 17.2104 12.3958 16.1401 13.206 15.041C13.648 14.45 14.038 13.93 14.489 13.381C14.849 13.462 15.177 13.5 15.5 13.5C18.257 13.5 20.5 11.257 20.5 8.5C20.4954 8.0317 20.423 7.56654 20.285 7.119ZM8 17C7.73478 17 7.48043 16.8946 7.29289 16.7071C7.10536 16.5196 7 16.2652 7 16C7 15.7348 7.10536 15.4804 7.29289 15.2929C7.48043 15.1054 7.73478 15 8 15C8.26522 15 8.51957 15.1054 8.70711 15.2929C8.89464 15.4804 9 15.7348 9 16C9 16.2652 8.89464 16.5196 8.70711 16.7071C8.51957 16.8946 8.26522 17 8 17Z"
+                                        fill="#E5E5E5" />
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.365 16.5H7.635C7.46395 16.5 7.29803 16.4416 7.16476 16.3344C7.03148 16.2271 6.93886 16.0776 6.90225 15.9105L6.597 14.4975C6.1898 14.3191 5.80368 14.096 5.44575 13.8323L4.068 14.271C3.90493 14.323 3.72897 14.3177 3.56934 14.2559C3.40972 14.1941 3.27604 14.0795 3.19051 13.9313L1.8225 11.568C1.73786 11.4196 1.70609 11.2469 1.73239 11.0781C1.75868 10.9093 1.84149 10.7544 1.96725 10.6388L3.036 9.66375C2.9874 9.22208 2.9874 8.77642 3.036 8.33475L1.96725 7.362C1.84131 7.24633 1.75839 7.09131 1.73209 6.92234C1.70579 6.75337 1.73767 6.58048 1.8225 6.432L3.1875 4.06725C3.27304 3.91899 3.40672 3.80444 3.56634 3.74264C3.72597 3.68084 3.90193 3.6755 4.065 3.7275L5.44275 4.16625C5.62575 4.03125 5.81625 3.90525 6.01275 3.79125C6.2025 3.68475 6.3975 3.588 6.597 3.50175L6.90301 2.09025C6.93943 1.92315 7.03188 1.77352 7.16501 1.66616C7.29815 1.55881 7.46398 1.50018 7.635 1.5H10.365C10.536 1.50018 10.7019 1.55881 10.835 1.66616C10.9681 1.77352 11.0606 1.92315 11.097 2.09025L11.406 3.5025C11.8127 3.68195 12.1987 3.90501 12.5573 4.16775L13.9358 3.729C14.0987 3.67719 14.2745 3.68263 14.434 3.74442C14.5934 3.80621 14.727 3.92065 14.8125 4.06875L16.1775 6.4335C16.3515 6.73875 16.2915 7.125 16.0328 7.36275L14.964 8.33775C15.0126 8.77942 15.0126 9.22508 14.964 9.66675L16.0328 10.6418C16.2915 10.8802 16.3515 11.2657 16.1775 11.571L14.8125 13.9357C14.727 14.084 14.5933 14.1986 14.4337 14.2604C14.274 14.3222 14.0981 14.3275 13.935 14.2755L12.5573 13.8368C12.1996 14.1003 11.8137 14.3231 11.4068 14.5012L11.097 15.9105C11.0604 16.0775 10.9679 16.2269 10.8348 16.3341C10.7017 16.4413 10.5359 16.4999 10.365 16.5ZM8.99701 6C8.20136 6 7.43829 6.31607 6.87568 6.87868C6.31308 7.44129 5.997 8.20435 5.997 9C5.997 9.79565 6.31308 10.5587 6.87568 11.1213C7.43829 11.6839 8.20136 12 8.99701 12C9.79265 12 10.5557 11.6839 11.1183 11.1213C11.6809 10.5587 11.997 9.79565 11.997 9C11.997 8.20435 11.6809 7.44129 11.1183 6.87868C10.5557 6.31607 9.79265 6 8.99701 6Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link">
+                                <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M3.625 3.375C3.625 5.23575 5.13925 6.75 7 6.75C8.86075 6.75 10.375 5.23575 10.375 3.375C10.375 1.51425 8.86075 0 7 0C5.13925 0 3.625 1.51425 3.625 3.375ZM13 14.25H13.75V13.5C13.75 10.6058 11.3942 8.25 8.5 8.25H5.5C2.605 8.25 0.25 10.6058 0.25 13.5V14.25H13Z"
+                                        fill="#E5E5E5" />
+                                </svg> <span class="ms-1">John Doe</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item px-3 dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                                ZZZ_P
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9 1C7.41775 1 5.87103 1.46919 4.55544 2.34824C3.23985 3.22729 2.21447 4.47672 1.60897 5.93853C1.00347 7.40034 0.84504 9.00887 1.15372 10.5607C1.4624 12.1126 2.22433 13.538 3.34315 14.6569C4.46197 15.7757 5.88743 16.5376 7.43928 16.8463C8.99113 17.155 10.5997 16.9965 12.0615 16.391C13.5233 15.7855 14.7727 14.7602 15.6518 13.4446C16.5308 12.129 17 10.5823 17 9C17 6.87827 16.1571 4.84344 14.6569 3.34315C13.1566 1.84285 11.1217 1 9 1ZM9.03 9.84C8.94554 9.84066 8.86178 9.82459 8.78355 9.79273C8.70532 9.76086 8.63418 9.71382 8.57422 9.65433C8.51426 9.59483 8.46667 9.52405 8.43419 9.44608C8.40172 9.3681 8.385 9.28447 8.385 9.2V4.325C8.385 4.15394 8.45296 3.98988 8.57392 3.86892C8.69488 3.74796 8.85894 3.68 9.03 3.68C9.20107 3.68 9.36513 3.74796 9.48609 3.86892C9.60705 3.98988 9.675 4.15394 9.675 4.325V9.2C9.67501 9.28447 9.65829 9.3681 9.62581 9.44608C9.59334 9.52405 9.54575 9.59483 9.48579 9.65433C9.42583 9.71382 9.35468 9.76086 9.27646 9.79273C9.19823 9.82459 9.11447 9.84066 9.03 9.84ZM9 13.895C7.9469 13.9075 6.91739 13.583 6.06169 12.9691C5.20599 12.3551 4.56891 11.4837 4.24341 10.4821C3.91792 9.4805 3.92105 8.40108 4.25234 7.40137C4.58364 6.40166 5.22576 5.534 6.085 4.925C6.23466 4.81833 6.42027 4.77479 6.60176 4.80379C6.78324 4.83279 6.94604 4.932 7.055 5.08C7.1082 5.15309 7.1464 5.23598 7.16741 5.3239C7.18841 5.41183 7.19181 5.50303 7.1774 5.59228C7.16299 5.68152 7.13106 5.76702 7.08345 5.84386C7.03584 5.92071 6.9735 5.98737 6.9 6.04C6.40577 6.40296 6.01275 6.88647 5.7584 7.44443C5.50406 8.00238 5.39687 8.61619 5.44705 9.22733C5.49724 9.83846 5.70312 10.4266 6.04508 10.9355C6.38704 11.4445 6.85367 11.8575 7.4005 12.1349C7.94732 12.4124 8.5561 12.5452 9.1688 12.5206C9.7815 12.4961 10.3777 12.315 10.9006 11.9946C11.4234 11.6743 11.8555 11.2253 12.1556 10.6906C12.4557 10.1559 12.6139 9.55319 12.615 8.94C12.6133 8.37502 12.4762 7.81867 12.2153 7.31757C11.9543 6.81648 11.577 6.38524 11.115 6.06C10.9728 5.94774 10.8808 5.78368 10.8592 5.60375C10.8377 5.42382 10.8883 5.24269 11 5.1C11.1105 4.95357 11.274 4.85634 11.4554 4.82922C11.6368 4.80211 11.8216 4.84727 11.97 4.955C12.8203 5.57097 13.4522 6.44183 13.774 7.44123C14.0959 8.44062 14.0909 9.51657 13.7599 10.513C13.4289 11.5094 12.789 12.3744 11.9331 12.9825C11.0772 13.5906 10.0498 13.9103 9 13.895Z"
+                                        fill="#E5E5E5" />
+                                </svg>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <div class="container mt-5 pt-3">
+        <div class=" card shadow-sm mb-3 rounded-2">
+            <div class="card-header bg-white">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-4 align-self-stretch">
+                        <input type="search" name="" id="" class="form-control form-control rounded-pill " placeholder="Search by group name, username...">
+                    </div>
+                    <div class="col-auto">
+                        <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">Add new
+                            group</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row g-3 text-center">
+            <div class="col-6 col-md-2  -1">
+                <a href="generalSettings.html" class="card border-0 dashboard-item shadow-sm h-100">
+                    <div class="card-body pb-md-0">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-auto">
+                                <button type="button" class="btn btn-primary position-relative">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-people" viewBox="0 0 16 16">
+                                        <path
+                                            d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
+                                    </svg>
+                                    <span
+                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill p-2 bg-danger">
+                                        99+
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="col-auto">
+                                <button type="button" class="btn btn-primaryInverse text-light position-relative">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-send" viewBox="0 0 16 16">
+                                        <path
+                                            d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                                    </svg>
+                                    <span
+                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill p-2 bg-danger">
+                                        99+
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <p class="body1 text-capitalize">General settings</p>
+
+                        </div>
+
+
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-2  -1">
+                <a href="generalSettings.html" class="card border-0 dashboard-item shadow-sm h-100">
+                    <div class="card-body pb-md-0">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-auto">
+                                <button type="button" class="btn btn-primary position-relative">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-people" viewBox="0 0 16 16">
+                                        <path
+                                            d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
+                                    </svg>
+                                    <span
+                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill p-2 bg-danger">
+                                        99+
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="col-auto">
+                                <button type="button" class="btn btn-primaryInverse text-light position-relative">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-send" viewBox="0 0 16 16">
+                                        <path
+                                            d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                                    </svg>
+                                    <span
+                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill p-2 bg-danger">
+                                        99+
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <p class="body1 text-capitalize">General settings</p>
+
+                        </div>
+
+
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-2  -1">
+                <a href="generalSettings.html" class="card border-0 dashboard-item shadow-sm h-100">
+                    <div class="card-body pb-md-0">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-auto">
+                                <button type="button" class="btn btn-primary position-relative">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-people" viewBox="0 0 16 16">
+                                        <path
+                                            d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
+                                    </svg>
+                                    <span
+                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill p-2 bg-danger">
+                                        99+
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="col-auto">
+                                <button type="button" class="btn btn-primaryInverse text-light position-relative">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-send" viewBox="0 0 16 16">
+                                        <path
+                                            d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                                    </svg>
+                                    <span
+                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill p-2 bg-danger">
+                                        99+
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <p class="body1 text-capitalize">General settings</p>
+
+                        </div>
+
+
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-2  -1">
+                <a href="generalSettings.html" class="card border-0 dashboard-item shadow-sm h-100">
+                    <div class="card-body pb-md-0">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-auto">
+                                <button type="button" class="btn btn-primary position-relative">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-people" viewBox="0 0 16 16">
+                                        <path
+                                            d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
+                                    </svg>
+                                    <span
+                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill p-2 bg-danger">
+                                        99+
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="col-auto">
+                                <button type="button" class="btn btn-primaryInverse text-light position-relative">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-send" viewBox="0 0 16 16">
+                                        <path
+                                            d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                                    </svg>
+                                    <span
+                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill p-2 bg-danger">
+                                        99+
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <p class="body1 text-capitalize">General settings</p>
+
+                        </div>
+
+
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-2  -1">
+                <a href="generalSettings.html" class="card border-0 dashboard-item shadow-sm h-100">
+                    <div class="card-body pb-md-0">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-auto">
+                                <button type="button" class="btn btn-primary position-relative">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-people" viewBox="0 0 16 16">
+                                        <path
+                                            d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
+                                    </svg>
+                                    <span
+                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill p-2 bg-danger">
+                                        99+
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="col-auto">
+                                <button type="button" class="btn btn-primaryInverse text-light position-relative">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-send" viewBox="0 0 16 16">
+                                        <path
+                                            d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                                    </svg>
+                                    <span
+                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill p-2 bg-danger">
+                                        99+
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <p class="body1 text-capitalize">General settings</p>
+
+                        </div>
+
+
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-2  -1">
+                <a href="generalSettings.html" class="card border-0 dashboard-item shadow-sm h-100">
+                    <div class="card-body pb-md-0">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-auto">
+                                <button type="button" class="btn btn-primary position-relative">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-people" viewBox="0 0 16 16">
+                                        <path
+                                            d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
+                                    </svg>
+                                    <span
+                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill p-2 bg-danger">
+                                        99+
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="col-auto">
+                                <button type="button" class="btn btn-primaryInverse text-light position-relative">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-send" viewBox="0 0 16 16">
+                                        <path
+                                            d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                                    </svg>
+                                    <span
+                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill p-2 bg-danger">
+                                        99+
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <p class="body1 text-capitalize">General settings</p>
+
+                        </div>
+
+
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-2  -1">
+                <a href="generalSettings.html" class="card border-0 dashboard-item shadow-sm h-100">
+                    <div class="card-body pb-md-0">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-auto">
+                                <button type="button" class="btn btn-primary position-relative">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-people" viewBox="0 0 16 16">
+                                        <path
+                                            d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
+                                    </svg>
+                                    <span
+                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill p-2 bg-danger">
+                                        99+
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="col-auto">
+                                <button type="button" class="btn btn-primaryInverse text-light position-relative">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-send" viewBox="0 0 16 16">
+                                        <path
+                                            d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                                    </svg>
+                                    <span
+                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill p-2 bg-danger">
+                                        99+
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <p class="body1 text-capitalize">General settings</p>
+
+                        </div>
+
+
+
+                    </div>
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    </div>
+
+    </div>
+
+    <div class="modal" tabindex="-1" id="exampleModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add Group</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" class="form-control" placeholder="Group Name">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="assets/css/bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

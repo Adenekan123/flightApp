@@ -1,0 +1,223 @@
+:root {
+    --colorPrimary: #034372;
+    --colorOnPrimary: #E5E5E5;
+    --colorPrimaryInverse: #02243d;
+    --colorSecondary: #00b0fc;
+    --colorOnSecondary: #8dd7f7;
+    --colorTertiary: #CFCDD7;
+    --colorBgLightGrey: #F2F2F2;
+    --colorWhite: #fff;
+    --colorOnWhite: #9E9DA1;
+    --colorSuccess: #0ED135;
+}
+
+body {
+    background-color: var(--colorOnPrimary);
+    font-family: 'Sora', sans-serif;
+}
+
+.heading1 {
+    font-size: .9rem!important;
+    font-weight: 600;
+}
+
+.headingMed {
+    font-size: 1.2rem!important;
+    font-weight: 400;
+}
+
+.text-primaryInverse {
+    color: var(--colorPrimaryInverse)!important;
+    fill: var(--colorPrimaryInverse)!important;
+}
+
+.text-secondary {
+    color: var(--colorSecondary)!important;
+    fill: var(--colorSecondary)!important;
+}
+
+.text-success {
+    color: var(--colorSuccess)!important;
+    fill: var(--colorSuccess)!important;
+}
+
+.text-onPrimary {
+    color: var(--colorOnPrimary)!important;
+    fill: var(--colorOnPrimary)!important;
+}
+
+.text-primary {
+    color: var(--colorPrimary)!important;
+    fill: var(--colorPrimary)!important;
+}
+
+.rounded-5 {
+    border-radius: 30rem!important;
+}
+
+.bg-primary,
+.btn-primary {
+    background-color: var(--colorPrimary)!important;
+}
+
+.bg-primaryInverse,
+.btn-primaryInverse {
+    background-color: var(--colorPrimaryInverse)!important;
+}
+
+.bg-secondary,
+.btn-secondary {
+    background-color: var(--colorSecondary)!important;
+    border: 1px solid var(--colorSecondary)!important;
+}
+
+.bg-light,
+.btn-light {
+    background-color: var(--colorTertiary)!important;
+}
+
+.bg-danger,
+.btn-danger {
+    background-color: var(--colorSecondary)!important;
+}
+
+.bg-success,
+.btn-success {
+    background-color: var(--colorSuccess)!important;
+}
+
+.text-primary {
+    color: var(--colorPrimary)!important;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.heading1 {
+    font-size: 3.6rem;
+}
+
+.heading2 {
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.heading3 {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.heading4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.body2 {
+    font-size: 1.2rem;
+}
+
+.body1 {
+    /* font-size: .8rem; */
+}
+
+.text-caption {
+    font-size: .9rem;
+}
+
+.bg-light-gray {
+    background-color: var(--colorBgLightGrey);
+}
+
+.shadow-sm {
+    box-shadow: 0px 25px 30px rgba(81, 80, 83, 0.05);
+}
+
+label {
+    font-weight: 500;
+}
+
+.btn,
+.form-control input:active {
+    outline: none;
+}
+
+.btn:active,
+.btn:focus,
+.btn:target,
+input.form-constrol:focus,
+input.form-constrol:target,
+input.form-constrol:active {
+    border: 1px solid var(--colorSecondary);
+    outline: 0px;
+}
+
+.form-control-lg {
+    padding: 1.2rem;
+    font-size: 1rem;
+}
+
+input {
+    border: 1px solid var(--colorTertiary)!important;
+}
+
+#phone.form-control {
+    padding-left: 5rem;
+}
+
+.dashboard-item {
+    text-decoration: none;
+    color: inherit;
+}
+
+.dashboard-item svg {
+    transition: transform .2s;
+}
+
+.dashboard-item:hover svg {
+    transform: rotate(-10deg);
+}
+
+
+/* thead tr th {
+    border: 1px solid black;
+} */
+
+.grad-x {
+    text-align: center!important;
+}
+
+.txt-small {
+    font-size: 0.8rem!important;
+    text-align: center!important;
+}
+
+.h-screen {
+    min-height: 100vh;
+}
+
+
+/*For templates area*/
+
+.typic-sub a {
+    font-size: 0.7em!important;
+}
+
+.typic-sub label {
+    font-size: 0.8em!important;
+}
+
+.nav-bel .nav-link {
+    display: inline-block!important;
+}
+
+.tag-lst p {
+    font-size: 0.6em!important;
+    line-height: 0.7em!important;
+}
+
+@media(max-width:1200px) {
+    .h-screen {
+        min-height: auto;
+    }
+}
