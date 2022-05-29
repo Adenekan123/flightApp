@@ -55,6 +55,11 @@ body {
     border-radius: 30rem!important;
 }
 
+.bg-yellow,
+.btn-yellow {
+    background-color: yellow;
+}
+
 .bg-primary,
 .btn-primary {
     background-color: var(--colorPrimary)!important;
